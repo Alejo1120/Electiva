@@ -7,6 +7,8 @@ import { AgregarComponent } from './agregar/agregar.component';
 import { ActualizarComponent } from './actualizar/actualizar.component';
 import { EliminarComponent } from './eliminar/eliminar.component';
 
+
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -16,7 +18,7 @@ import { EliminarComponent } from './eliminar/eliminar.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
